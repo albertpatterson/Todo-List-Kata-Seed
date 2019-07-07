@@ -1,3 +1,9 @@
+const files = [
+  'src/**/*.js',
+];
+
+
+
 module.exports = function(config) {
   config.set({
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -10,7 +16,7 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
-    files: ['test.js'],
+    files,
 
 
     // list of files / patterns to exclude
@@ -44,7 +50,7 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers:
     // https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['FirefoxHeadless'],
 
 
     // Continuous Integration mode
