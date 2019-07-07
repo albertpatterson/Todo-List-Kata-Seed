@@ -4,10 +4,8 @@
   "description": "a kata based on building a todo list",
   "main": "index.js",
   "scripts": {
-    "run": "gulp run",
-    "test": "gulp test",
-    "watch-run": "gulp watch-run",
-    "watch-test": "gulp watch-test"
+    "start": "gulp watch-run",
+    "test": "gulp test-watch-test"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
