@@ -61,9 +61,10 @@ This kata can be executed in two environments
     * install ```npm install```
     * use the provided scripts (described above) to run the server and the test
  * REPL.it
-    * REPL.it is a greate tool that provides an instant IDE for a variety of languages.
+    * REPL.it is a great tool that provides an instant IDE for a variety of languages.
       * It's great for hacking, but needs a little tweeking to use testing tools. A REPL with those tweeks is provided. 
     * A REPL for this kata is available at https://repl.it/@apatterson189/Todo-List-Kata-Seed
+    * Fork the REPL via the "Fork" button in the top middle of the page
     * edit index.js to choose the script to run.
     * create the Todo List using the files under /src
     * do not edit the files under /DO_NOT_EDIT
