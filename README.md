@@ -4,8 +4,11 @@ A seed project for the Todo List Web App Kata
 ## Kata Goal
 Create a web application for managing a collection of items in a todo list.
 
-## Example
+## Examples
+Todo List
 ![Todo List Example](readme-resources/example.png)
+Add Todo Item 
+![Add Todo Item Example](readme-resources/Add_Item_Modal.png)
 
 ## Requirements
 * Must Have
@@ -50,3 +53,17 @@ Create a web application for managing a collection of items in a todo list.
 * Gulp: The build system we will use for running our tests and serving out app. Configured via gulpfile.js
 * Karma: The test runner that lets us run our tests in a real browser. Configured via karma.conf.js
 * Jasmine: The testing framework that “comes out of the box with everything you need to test your code.”
+
+##  Getting Started
+This kata can be executed in two environments
+ * Locally 
+    * clone this repo:  ```git clone https://github.com/albertpatterson/Todo-List-Kata-Seed.git```
+    * install ```npm install```
+    * use the provided scripts (described above) to run the server and the test
+ * REPL.it
+    * REPL.it is a greate tool that provides an instant IDE for a variety of languages.
+      * It's great for hacking, but needs a little tweeking to use testing tools. A REPL with those tweeks is provided. 
+    * A REPL for this kata is available at https://repl.it/@apatterson189/Todo-List-Kata-Seed
+    * edit index.js to choose the script to run.
+    * create the Todo List using the files under /src
+    * do not edit the files under /DO_NOT_EDIT
